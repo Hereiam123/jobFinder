@@ -11,7 +11,15 @@ class JobsController extends AppController{
     *   Default Index Method
     */
     public function index(){
-        $jobs = "Whatever";
+
+        //Set query options
+        $options=array(
+            'order'=>array('Jobs.created'=>'asc'),
+            'limit'=>2
+        );
+
+        //Get job info
+        $jobs = $this->Jobs->find('all',$options);
         $this->set('jobs',$jobs);
     }
 }
