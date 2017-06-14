@@ -39,49 +39,8 @@
         </div>
         <?php echo $this->element('search'); ?>
         <div class="col_12 column">
-            <h3>Latest Job Listings</h3>
-            <ul id="listings">
-                <li>
-                    <div class="type">
-                        <span class="green">Full Time</span>
-                    </div>
-                    <div class="description">
-                        <h5>Senior Graphic Designer (Burlington, MA)</h5>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                        ut laoreet dolore magna aliquam erat volutpat.<a href="details.html" class="read-more"> <i class="fa fa-plus"></i> Read More</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="type">
-                        <span class="green">Full Time</span>
-                    </div>
-                    <div class="description">
-                        <h5> UX Designer (Newburyport, MA)</h5>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                        ut laoreet dolore magna aliquam erat volutpat.<a href="details.html" class="read-more"> <i class="fa fa-plus"></i> Read More</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="type">
-                        <span class="blue">Part Time</span>
-                    </div>
-                    <div class="description">
-                        <h5>Registered Nurse (Brooklyn, NY)</h5>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                        ut laoreet dolore magna aliquam erat volutpat.<a href="details.html" class="read-more"> <i class="fa fa-plus"></i> Read More</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="type">
-                        <span class="green">Full Time</span>
-                    </div>
-                    <div class="description">
-                        <h5>House Painter(Boston, MA)</h5>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                        ut laoreet dolore magna aliquam erat volutpat.<a href="details.html" class="read-more"> <i class="fa fa-plus"></i> Read More</a>
-                    </div>
-                </li>
-            </ul>
+            <?php echo $this->Flash->render(); ?>
+            <?php echo $this->fetch('content'); ?>
         </div>
         <div class="clearfix"></div>
         <footer>
