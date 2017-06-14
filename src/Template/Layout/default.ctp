@@ -20,10 +20,10 @@
     <div id="container" class="grid">
         <header>
             <div class="col_6 column">
-                <h2><strong><a href="index.html" id="logo">JobFinder</a></strong></h2>
+                <h2><strong><a href="<?php echo $this->request->webroot; ?>" id="logo">JobFinder</a></strong></h2>
             </div>
             <div class="col_6 column right">
-                <form id="add-job">
+                <form id="add-job" action="<?php echo $this->request->webroot;?>jobs/add">
                     <button class="large green"><i class="fa fa-paper-plane" aria-hidden="true"> Add Job</i></button>
                 </form>
             </div>
@@ -31,82 +31,13 @@
         <div class="col_12 column">
         <!-- Menu Horizontal -->
             <ul class="menu">
-                <li class="current"><a href="index.html"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
-                <li><a href="jobs.html"><i class="fa fa-wrench"> Browse Jobs</i></a></li>
-                <li><a href="register.html"><i class="fa fa-cog"></i> Register</a></li>
-                <li><a href="login.html"><i class="fa fa-key"></i> Login</a></li>
+                <li <?php echo ($this->request->here=='/jobFinder/' || $this->request->here=='/jobFinder/jobs') ? 'class="current"' : ''?>><a href="<?php echo $this->request->webroot;?>"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
+                <li <?php echo ($this->request->here=='/jobFinder/jobs/browse') ? 'class="current"' : ''?>><a href="<?php echo $this->request->webroot;?>jobs/browse"><i class="fa fa-wrench"> Browse Jobs</i></a></li>
+                <li <?php echo ($this->request->here=='/jobFinder/users/register') ? 'class="current"' : ''?>><a href="<?php echo $this->request->webroot;?>users/register"><i class="fa fa-cog"></i> Register</a></li>
+                <li <?php echo ($this->request->here=='/jobFinder/users/login') ? 'class="current"' : ''?>><a href="<?php echo $this->request->webroot;?>users/login"><i class="fa fa-key"></i> Login</a></li>
             </ul>
         </div>
-        <div id="search_area" class="col_12 column">
-            <form class="horizontal" method="post" action="#">
-                <i class="fa fa-search" aria-hidden="true"></i>
-                <input id="keywords" type="text" placeholder="Enter Keywords..." />
-                <select id="state_select">
-                    <option>Select State</option>
-                    <option value="AL">Alabama</option>
-                    <option value="AK">Alaska</option>
-                    <option value="AZ">Arizona</option>
-                    <option value="AR">Arkansas</option>
-                    <option value="CA">California</option>
-                    <option value="CO">Colorado</option>
-                    <option value="CT">Connecticut</option>
-                    <option value="DE">Delaware</option>
-                    <option value="FL">Florida</option>
-                    <option value="GA">Georgia</option>
-                    <option value="HI">Hawaii</option>
-                    <option value="ID">Idaho</option>
-                    <option value="IL">Illinois</option>
-                    <option value="IN">Indiana</option>
-                    <option value="IA">Iowa</option>
-                    <option value="KS">Kansas</option>
-                    <option value="KY">Kentucky</option>
-                    <option value="LA">Louisiana</option>
-                    <option value="ME">Maine</option>
-                    <option value="MD">Maryland</option>
-                    <option value="MA">Massachusetts</option>
-                    <option value="MI">Michigan</option>
-                    <option value="MN">Minnesota</option>
-                    <option value="MS">Mississippi</option>
-                    <option value="MO">Missouri</option>
-                    <option value="MT">Montana</option>
-                    <option value="NE">Nebraska</option>
-                    <option value="NV">Nevada</option>
-                    <option value="NH">New Hampshire</option>
-                    <option value="NJ">New Jersey</option>
-                    <option value="NM">New Mexico</option>
-                    <option value="NY">New York</option>
-                    <option value="NC">North Carolina</option>
-                    <option value="ND">North Dakota</option>
-                    <option value="OH">Ohio</option>
-                    <option value="OK">Oklahoma</option>
-                    <option value="OR">Oregon</option>
-                    <option value="PA">Pennsylvania</option>
-                    <option value="RI">Rhode Island</option>
-                    <option value="SC">South Carolina</option>
-                    <option value="SD">South Dakota</option>
-                    <option value="TN">Tennessee</option>
-                    <option value="TX">Texas</option>
-                    <option value="UT">Utah</option>
-                    <option value="VT">Vermont</option>
-                    <option value="VA">Virginia</option>
-                    <option value="WA">Washington</option>
-                    <option value="WV">West Virginia</option>
-                    <option value="WI">Wisconsin</option>
-                    <option value="WY">Wyoming</option>
-                </select>
-                <select id="category_select">
-                    <option>Select Category</option>
-                    <option>Accounting & Banking</option>
-                    <option>Construction</option>
-                    <option>Fashion & Style</option>
-                    <option>Food & Restaurant</option>
-                    <option>Healthcare</option>
-                    <option>Retail & Sales</option>
-                    <option>Technology</option>
-                </select>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+        <?php echo $this->element('search'); ?>
         <div class="col_12 column">
             <h3>Latest Job Listings</h3>
             <ul id="listings">
