@@ -23,8 +23,6 @@ class JobsController extends AppController{
         $this->set('jobs',$jobs);
     }
 
-
-
 }
 
 
