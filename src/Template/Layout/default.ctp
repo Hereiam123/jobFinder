@@ -9,8 +9,8 @@
     <?= $this->Html->meta('icon') ?>
     <?= $this->Html->css('kickstart.css') ?>
     <?= $this->Html->css('style.css') ?>
-    <?= $this->Html->script('jquery') ?>
-    <?= $this->Html->script('kickstart') ?>
+    <?= $this->Html->script('jquery.js') ?>
+    <?= $this->Html->script('kickstart.js') ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
