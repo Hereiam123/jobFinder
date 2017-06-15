@@ -9,6 +9,7 @@ class JobsTable extends Table
     public function initialize(array $config)
     {
         $this->belongsTo('Types');
+        $this->belongsTo('Categories');
     }
 }
 
