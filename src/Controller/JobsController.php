@@ -14,8 +14,7 @@ class JobsController extends AppController{
 
         //Set query options
         $options=array(
-            'order'=>array('Jobs.created'=>'asc'),
-            'limit'=>2
+            'order'=>array('Jobs.created'=>'asc')
         );
 
         //Get job info
