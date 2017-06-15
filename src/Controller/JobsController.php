@@ -19,7 +19,7 @@ class JobsController extends AppController{
         );
 
         //Get job info
-        $jobs = $this->Jobs->find('all',$options);
+        $jobs = $this->Jobs->find('all',$options)->contain(['Types']);
         $this->set('jobs',$jobs);
     }
 }

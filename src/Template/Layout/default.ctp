@@ -44,7 +44,7 @@
         </div>
         <div class="clearfix"></div>
         <footer>
-            <p>Copyright @copy; 2017, JobFinder, All Rights Reserved</p>
+            <p>Copyright 2017, JobFinder, All Rights Reserved</p>
         </footer>
     </div> <!-- End Grid -->
 </body>

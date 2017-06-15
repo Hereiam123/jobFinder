@@ -1,47 +1,18 @@
-<?php foreach($jobs as $job):?>
-    <p><?php echo $job['title'];?></p>
-<?php endforeach; ?>
-
 <h3>Latest Job Listings</h3>
 <ul id="listings">
+    <?php foreach($jobs as $job):?>
     <li>
         <div class="type">
-            <span class="green">Full Time</span>
+            <span class="green"><?php echo $job->type->name;?></span>
         </div>
         <div class="description">
-            <h5>Senior Graphic Designer (Burlington, MA)</h5>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-            ut laoreet dolore magna aliquam erat volutpat.<a href="details.html" class="read-more"> <i class="fa fa-plus"></i> Read More</a>
+            <h5><?php echo $job['title'];?>(<?php echo $job['city'];?>,<?php echo $job['state'];?>)</h5>
+            <span id="list_date">
+                <?php echo $this->Time->format($job['created']); ?>
+            </span>
+            <?php echo $this->Text->truncate($job['description'],250, array('ellipses'=>'...','exact'=>false));?>
+            <?php echo $this->Html->link('Read More',array('controller'=>'jobs','action'=>'view',$job['id']));?>
         </div>
     </li>
-    <li>
-        <div class="type">
-            <span class="green">Full Time</span>
-        </div>
-        <div class="description">
-            <h5> UX Designer (Newburyport, MA)</h5>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-            ut laoreet dolore magna aliquam erat volutpat.<a href="details.html" class="read-more"> <i class="fa fa-plus"></i> Read More</a>
-        </div>
-    </li>
-    <li>
-        <div class="type">
-            <span class="blue">Part Time</span>
-        </div>
-        <div class="description">
-            <h5>Registered Nurse (Brooklyn, NY)</h5>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-            ut laoreet dolore magna aliquam erat volutpat.<a href="details.html" class="read-more"> <i class="fa fa-plus"></i> Read More</a>
-        </div>
-    </li>
-    <li>
-        <div class="type">
-            <span class="green">Full Time</span>
-        </div>
-        <div class="description">
-            <h5>House Painter(Boston, MA)</h5>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-            ut laoreet dolore magna aliquam erat volutpat.<a href="details.html" class="read-more"> <i class="fa fa-plus"></i> Read More</a>
-        </div>
-    </li>
+    <?php endforeach; ?>
 </ul>
