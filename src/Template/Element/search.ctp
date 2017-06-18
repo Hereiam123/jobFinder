@@ -55,15 +55,11 @@
             <option value="WI">Wisconsin</option>
             <option value="WY">Wyoming</option>
         </select>
-        <select id="category_select">
+        <select id="category_select" name="category">
             <option>Select Category</option>
-            <option>Accounting & Banking</option>
-            <option>Construction</option>
-            <option>Fashion & Style</option>
-            <option>Food & Restaurant</option>
-            <option>Healthcare</option>
-            <option>Retail & Sales</option>
-            <option>Technology</option>
+            <?php foreach ($categories as $category): ?>
+                <option value="<?php echo $category->name?>"><?php echo $category->name; ?></option>
+            <?php endforeach; ?>
         </select>
         <button type="submit">Submit</button>
     </form>

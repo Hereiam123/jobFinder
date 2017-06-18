@@ -11,6 +11,9 @@ class JobsController extends AppController{
     *   Default Index Method
     */
     public function index(){
+    
+        $categories=$this->Jobs->Categories->find('all');
+        $this->set('categories',$categories);
 
         //Set query options
         $options=array(

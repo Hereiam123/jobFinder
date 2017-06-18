@@ -37,7 +37,6 @@
                 <li <?php echo ($this->request->here=='/jobFinder/users/login') ? 'class="current"' : ''?>><a href="<?php echo $this->request->webroot;?>users/login"><i class="fa fa-key"></i> Login</a></li>
             </ul>
         </div>
-        <?php echo $this->element('search'); ?>
         <div class="col_12 column">
             <?php echo $this->Flash->render(); ?>
             <?php echo $this->fetch('content'); ?>

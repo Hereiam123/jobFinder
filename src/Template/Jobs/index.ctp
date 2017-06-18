@@ -1,3 +1,4 @@
+<?php echo $this->element('search'); ?>
 <h3>Latest Job Listings</h3>
 <ul id="listings">
     <?php foreach($jobs as $job):?>
