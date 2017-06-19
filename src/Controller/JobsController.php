@@ -18,7 +18,7 @@ class JobsController extends AppController{
 
         //Set query options
         $options=array(
-            'order'=>array('Jobs.created'=>'asc'),
+            'order'=>array('Jobs.created'=>'desc'),
             'limit'=>10
         );
 
@@ -99,7 +99,8 @@ class JobsController extends AppController{
             throw new NotFoundException(__('No job listing!'));
         }
 
-        $job=$this->Jobs->findById($id)->contain(['Types']);
+        $query=$this->Jobs->findById($id)->contain(['Types']);
+        $job=$query->first();
 
         if(!$job){
             throw new NotFoundException(__('No job listing!'));
@@ -126,6 +127,7 @@ class JobsController extends AppController{
         $types=$this->Jobs->Types->find('list');
         $this->set('types',$types);
 
+        //Save job data from add form
         if($this->request->is('post')){
 
             $job=$this->Jobs->newEntity($this->request->data);
@@ -135,8 +137,47 @@ class JobsController extends AppController{
                 return $this->redirect(array('action'=>'index'));
             }
         }
-
         $this->set('title', 'Add Job');
+    }
+
+    /*
+    *   Edit Job
+    */
+    public function edit($id){
+        //Set categories
+        $options=array(
+            'order'=>array('Categories.name'=>'asc')
+        );
+        $categories=$this->Jobs->Categories->find('list',$options);
+        $this->set('categories',$categories);
+
+        //Set types
+        $types=$this->Jobs->Types->find('list');
+        $this->set('types',$types);
+
+        if(!$id){
+            throw new NotFoundException(__('No job listing!'));
+        }
+
+        //Find job by id
+        $query=$this->Jobs->findById($id)->contain(['Types','Categories']);
+        $job=$query->first();
+
+        if(!$job){
+            throw new NotFoundException(__('No job listing!'));
+        }
+
+        $this->set('job',$job);
+
+        //Save job data from add form
+        if($this->request->is('post')){
+
+            if($this->Jobs->save($job)){
+                $this->Flash->set('Your job has relisted');
+                return $this->redirect(array('action'=>'index'));
+            }
+        }
+        $this->set('title', 'Edit Job');
     }
 }
 
