@@ -133,7 +133,7 @@ class JobsController extends AppController{
             $job=$this->Jobs->newEntity($this->request->data);
 
             if($this->Jobs->save($job)){
-                $this->Flash->set('Your job has been listed');
+                $this->Flash->set(__('Your job has been listed'));
                 return $this->redirect(array('action'=>'index'));
             }
         }
@@ -167,10 +167,28 @@ class JobsController extends AppController{
                 }
                 $this->Flash->error(__('Unable to update your job post.'));
             }
-            $this->set('job', $job);
-            $this->set('title', 'Edit Job');
+
+        $this->set('job', $job);
+        $this->set('title', 'Edit Job');
+    }
+
+
+    /*
+    *   Delete Job
+    */
+    public function delete($id)
+    {
+        $this->request->allowMethod(['post', 'delete']);
+
+        $query = $this->Jobs->findById($id);
+        $job=$query->first();
+
+        if ($this->Jobs->delete($job)) {
+            $this->Flash->success(__('Your job post has been deleted'));
+            return $this->redirect(['action' => 'index']);
         }
     }
+}
 
 ?>
 
