@@ -11,7 +11,7 @@ class JobsController extends AppController{
     *   Default Index Method
     */
     public function index(){
-    
+
         $categories=$this->Jobs->Categories->find('all');
         $this->set('categories',$categories);
 
@@ -33,6 +33,16 @@ class JobsController extends AppController{
 
         //Initialize conditions array
         $conditions=array();
+
+        if($this->request->is('post')){
+            if(!empty($this->request->data('keywords'))){
+                $conditions=array('OR'=>array(
+                    'Jobs.title LIKE' => "%".$this->request->data('keywords')."%",
+                    'Jobs.description LIKE' => "%".$this->request->data('keywords')."%"
+                )
+            );
+            }
+        }
 
         $categories=$this->Jobs->Categories->find('all');
         $this->set('categories',$categories);

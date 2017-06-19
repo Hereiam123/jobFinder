@@ -1,7 +1,7 @@
 <div id="search_area" class="col_12 column">
-    <form class="horizontal" method="post" action="#">
+    <form class="horizontal" method="post" action="<?php echo $this->request->webroot; ?>jobs/browse">
         <i class="fa fa-search" aria-hidden="true"></i>
-        <input id="keywords" type="text" placeholder="Enter Keywords..." />
+        <input id="keywords" name="keywords" type="text" placeholder="Enter Keywords..." />
         <select id="state_select">
             <option>Select State</option>
             <option value="AL">Alabama</option>
