@@ -160,23 +160,18 @@ class JobsController extends AppController{
         }
 
         //Find job by id
-        $query=$this->Jobs->findById($id)->contain(['Types','Categories']);
-        $job=$query->first();
+        $job=$this->Jobs->findById($id)->contain(['Types','Categories']);
+        $job=$job->first();
 
         if(!$job){
             throw new NotFoundException(__('No job listing!'));
         }
 
-        $this->set('job',$job);
-
         //Save job data from add form
-        if($this->request->is('post')){
-
-            if($this->Jobs->save($job)){
-                $this->Flash->set('Your job has relisted');
-                return $this->redirect(array('action'=>'index'));
-            }
+        if($this->request->is('job','put')){
+            
         }
+
         $this->set('title', 'Edit Job');
     }
 }
