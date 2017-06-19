@@ -23,6 +23,9 @@ class JobsController extends AppController{
 
         //Get job info
         $jobs = $this->Jobs->find('all',$options)->contain(['Types']);
+
+        $this->set('title', 'JobFinder');
+
         $this->set('jobs',$jobs);
     }
 
@@ -78,7 +81,32 @@ class JobsController extends AppController{
 
         //Get Jobs info
         $jobs = $this->Jobs->find('all',$options)->contain(['Types']);
+
+        $this->set('title', 'Browse Jobs');
+
         $this->set('jobs',$jobs);
+    }
+
+    /*
+    *   Read more for a single job
+    */
+    public function view($id){
+        $categories=$this->Jobs->Categories->find('all');
+        $this->set('categories',$categories);
+
+        if(!$id){
+            throw new NotFoundException(__('No job listing!'));
+        }
+
+        $job=$this->Jobs->findById($id);
+
+        if(!$job){
+            throw new NotFoundException(__('No job listing!'));
+        }
+
+        $this->set('title', 'Read More');
+
+        $this->set('job',$job);
     }
 }
 
