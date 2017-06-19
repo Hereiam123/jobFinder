@@ -11,7 +11,7 @@ class UsersController extends AppController{
     //A part of the cakephp user authentication controller
     public function beforeFilter(Event $event){
         parent::beforeFilter($event);
-        $this->Auth->allow('register');
+        $this->Auth->allow(['register','logout']);
     }
 
     /*
@@ -34,4 +34,26 @@ class UsersController extends AppController{
         $this->set('title', 'Register at JobFinder');
     }
 
+    /*
+    *   Login user
+    */
+    public function login()
+    {
+        if ($this->request->is('post')) {
+            $user = $this->Auth->identify();
+            if ($user) {
+                $this->Auth->setUser($user);
+                return $this->redirect($this->Auth->redirectUrl());
+            }
+            $this->Flash->error(__('Invalid username or password, try again'));
+        }
+    }
+
+    /*
+    *   Logout User
+    */
+    public function logout()
+    {
+        return $this->redirect($this->Auth->logout());
+    }
 }
