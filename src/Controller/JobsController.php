@@ -92,6 +92,8 @@ class JobsController extends AppController{
     *   Read more for a single job
     */
     public function view($id){
+
+        //Set categories
         $categories=$this->Jobs->Categories->find('all');
         $this->set('categories',$categories);
 
@@ -99,6 +101,7 @@ class JobsController extends AppController{
             throw new NotFoundException(__('No job listing!'));
         }
 
+        //Find job
         $query=$this->Jobs->findById($id)->contain(['Types']);
         $job=$query->first();
 
@@ -108,6 +111,7 @@ class JobsController extends AppController{
 
         $this->set('title', 'Read More');
 
+        //Set to view
         $this->set('job',$job);
     }
 
