@@ -19,7 +19,7 @@
             <?php echo $this->Time->format($job->created); ?>
         </span>
         <?php echo $job->description;?>
-        <strong>Contact At: <a href="<?php echo $job->contact_email;?>"></strong><?php echo $job->contact_email;?></a>
+        <p><strong>Contact At: <a href="#"></strong><?php echo $job->contact_email;?></a></p>
     </div>
     <?php endforeach; ?>
 </div>

@@ -7,6 +7,7 @@ use App\Controller\AppController;
 class JobsController extends AppController{
     public $name='Jobs';
 
+
     /*
     *   Default Index Method
     */
@@ -107,6 +108,29 @@ class JobsController extends AppController{
         $this->set('title', 'Read More');
 
         $this->set('job',$job);
+    }
+
+    /*
+    *   Add Job
+    */
+    public function add(){
+
+        //Set categories
+        $options=array(
+                'order'=>array('Categories.name'=>'asc')
+        );
+        $categories=$this->Jobs->Categories->find('list',$options);
+        $this->set('categories',$categories);
+
+        //Set types
+        $types=$this->Jobs->Types->find('list');
+        $this->set('types',$types);
+
+        if($this->request->is('post')){
+
+        }
+
+        $this->set('title', 'Add Job');
     }
 }
 
