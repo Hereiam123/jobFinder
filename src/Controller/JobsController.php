@@ -34,13 +34,28 @@ class JobsController extends AppController{
         //Initialize conditions array
         $conditions=array();
 
+        //check keywords
         if($this->request->is('post')){
             if(!empty($this->request->data('keywords'))){
-                $conditions=array('OR'=>array(
+                $conditions[]=array('OR'=>array(
                     'Jobs.title LIKE' => "%".$this->request->data('keywords')."%",
                     'Jobs.description LIKE' => "%".$this->request->data('keywords')."%"
-                )
-            );
+                    )
+                );
+            }
+
+            //State filter
+            if(!empty($this->request->data('state')) && $this->request->data('state')!='Select State'){
+                $conditions[]=array(
+                    'Jobs.state LIKE' => "%".$this->request->data('state')."%"
+                );
+            }
+
+            //Category filter
+            if(!empty($this->request->data('category')) && $this->request->data('category')!='Select Category'){
+                $conditions[]=array(
+                    'Jobs.category_id LIKE' => $this->request->data('category')
+                );
             }
         }
 

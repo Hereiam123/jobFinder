@@ -22,8 +22,8 @@
       <file leaf-file-name="JobsController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller/JobsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="52" column="52" lean-forward="true" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+            <state relative-caret-position="436">
+              <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -33,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/src/Template/Element/search.ctp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+              <caret line="3" column="91" lean-forward="true" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -591,12 +591,12 @@
       <workItem from="1497469823894" duration="3769000" />
       <workItem from="1497476677648" duration="12624000" />
       <workItem from="1497572178651" duration="1545000" />
-      <workItem from="1497648861271" duration="4596000" />
+      <workItem from="1497648861271" duration="7606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23374000" />
+    <option name="totallyTimeSpent" value="26384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="839" y="0" width="1088" height="1047" extended-state="0" />
@@ -940,15 +940,15 @@
     <entry file="file://$PROJECT_DIR$/src/Template/Element/search.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <caret line="3" column="91" lean-forward="true" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/JobsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="52" column="52" lean-forward="true" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+        <state relative-caret-position="436">
+          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
           <folding />
         </state>
       </provider>

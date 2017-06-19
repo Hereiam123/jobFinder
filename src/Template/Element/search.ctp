@@ -2,7 +2,7 @@
     <form class="horizontal" method="post" action="<?php echo $this->request->webroot; ?>jobs/browse">
         <i class="fa fa-search" aria-hidden="true"></i>
         <input id="keywords" name="keywords" type="text" placeholder="Enter Keywords..." />
-        <select id="state_select">
+        <select id="state_select" name="state">
             <option>Select State</option>
             <option value="AL">Alabama</option>
             <option value="AK">Alaska</option>
@@ -58,7 +58,7 @@
         <select id="category_select" name="category">
             <option>Select Category</option>
             <?php foreach ($categories as $category): ?>
-                <option value="<?php echo $category->name?>"><?php echo $category->name; ?></option>
+                <option value="<?php echo $category->id;?>"><?php echo $category->name; ?></option>
             <?php endforeach; ?>
         </select>
         <button type="submit">Submit</button>
