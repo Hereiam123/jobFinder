@@ -143,7 +143,7 @@ class JobsController extends AppController{
     /*
     *   Edit Job
     */
-    public function edit($id){
+    public function edit($id=null){
         //Set categories
         $options=array(
             'order'=>array('Categories.name'=>'asc')
@@ -155,26 +155,22 @@ class JobsController extends AppController{
         $types=$this->Jobs->Types->find('list');
         $this->set('types',$types);
 
-        if(!$id){
-            throw new NotFoundException(__('No job listing!'));
+        $query=$this->Jobs->findById($id)->contain(['Types','Categories']);
+        $job=$query->first();
+
+        //Place job data into form for editing, save on edit
+        if($this->request->is(['post','put'])){
+            $job=$this->Jobs->patchEntity($job,$this->request->data);
+            if ($this->Jobs->save($job)){
+                    $this->Flash->success(__('Your job post has been updated.'));
+                    return $this->redirect(['action' => 'index']);
+                }
+                $this->Flash->error(__('Unable to update your job post.'));
+            }
+            $this->set('job', $job);
+            $this->set('title', 'Edit Job');
         }
-
-        //Find job by id
-        $job=$this->Jobs->findById($id)->contain(['Types','Categories']);
-        $job=$job->first();
-
-        if(!$job){
-            throw new NotFoundException(__('No job listing!'));
-        }
-
-        //Save job data from add form
-        if($this->request->is('job','put')){
-            
-        }
-
-        $this->set('title', 'Edit Job');
     }
-}
 
 ?>
 

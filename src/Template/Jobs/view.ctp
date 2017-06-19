@@ -10,7 +10,7 @@
 <br/>
 <div class="col_12 column">
     <h5><?php echo $job->title;?>(<?php echo $job->city;?>,<?php echo $job->state;?>)</h5>
-    <?php echo $this->HTML->link('Edit',array('action'=>'edit',$job->id));?> |
+    <?php echo $this->HTML->link('Edit',array('action'=>'edit',$job->id));?>
     <?php echo $this->Form->postLink('Delete',array('action'=>'delete',$job->id),array('confirm'=>'Are you sure?'));?>
     <div class="type">
         <span style="background:<?php echo $job->type->color ?>"><?php echo $job->type->name;?></span>
