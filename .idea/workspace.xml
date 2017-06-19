@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7029b10-7771-4f06-a83d-c7f70c6bc2b2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_panels" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_panels" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_requests" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_requests" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_categories" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_categories" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_jobs" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_jobs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_types" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_types" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_debug_kit_en__u_s" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_debug_kit_en__u_s" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/debug_kit.sqlite" afterPath="$PROJECT_DIR$/tmp/debug_kit.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/debug.log" afterPath="$PROJECT_DIR$/logs/debug.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/JobsController.php" afterPath="$PROJECT_DIR$/src/Controller/JobsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Layout/default.ctp" afterPath="$PROJECT_DIR$/src/Template/Layout/default.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Jobs/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Jobs/view.ctp" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,8 +33,8 @@
       <file leaf-file-name="view.ctp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Template/Jobs/view.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+            <state relative-caret-position="425">
+              <caret line="25" column="84" lean-forward="false" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -92,9 +83,9 @@
         <option value="$PROJECT_DIR$/src/Template/Jobs/index.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Jobs/browse.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Element/search.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Jobs/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Controller/JobsController.php" />
         <option value="$PROJECT_DIR$/src/Template/Layout/default.ctp" />
+        <option value="$PROJECT_DIR$/src/Controller/JobsController.php" />
+        <option value="$PROJECT_DIR$/src/Template/Jobs/view.ctp" />
       </list>
     </option>
   </component>
@@ -336,12 +327,12 @@
       <workItem from="1497469823894" duration="3769000" />
       <workItem from="1497476677648" duration="12624000" />
       <workItem from="1497572178651" duration="1545000" />
-      <workItem from="1497648861271" duration="9616000" />
+      <workItem from="1497648861271" duration="10616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28394000" />
+    <option name="totallyTimeSpent" value="29394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="839" y="0" width="1088" height="1047" extended-state="0" />
@@ -701,8 +692,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Jobs/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        <state relative-caret-position="425">
+          <caret line="25" column="84" lean-forward="false" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
           <folding />
         </state>
       </provider>

@@ -98,7 +98,7 @@ class JobsController extends AppController{
             throw new NotFoundException(__('No job listing!'));
         }
 
-        $job=$this->Jobs->findById($id);
+        $job=$this->Jobs->findById($id)->contain(['Types']);
 
         if(!$job){
             throw new NotFoundException(__('No job listing!'));

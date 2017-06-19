@@ -9,6 +9,7 @@
 </div>
 <br/>
 <div class="col_12 column">
+    <?php foreach($job as $job) : ?>
     <h5><?php echo $job->title;?>(<?php echo $job->city;?>,<?php echo $job->state;?>)</h5>
     <div class="type">
         <span style="background:<?php echo $job->type->color ?>"><?php echo $job->type->name;?></span>
@@ -17,6 +18,9 @@
         <span id="list_date">
             <?php echo $this->Time->format($job->created); ?>
         </span>
-        <?php echo $this->Text->$job->description;?>
+        <?php echo $job->description;?>
+        <strong>Contact At: <a href="<?php echo $job->contact_email;?>"></strong><?php echo $job->contact_email;?></a>
     </div>
+    <?php endforeach; ?>
 </div>
+<p><a href="<?php echo $this->request->webroot;?>jobs/browse">Back to Browse</a></p>
