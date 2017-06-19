@@ -117,7 +117,7 @@ class JobsController extends AppController{
 
         //Set categories
         $options=array(
-                'order'=>array('Categories.name'=>'asc')
+            'order'=>array('Categories.name'=>'asc')
         );
         $categories=$this->Jobs->Categories->find('list',$options);
         $this->set('categories',$categories);
@@ -128,6 +128,12 @@ class JobsController extends AppController{
 
         if($this->request->is('post')){
 
+            $job=$this->Jobs->newEntity($this->request->data);
+
+            if($this->Jobs->save($job)){
+                $this->Flash->set('Your job has been listed');
+                return $this->redirect(array('action'=>'index'));
+            }
         }
 
         $this->set('title', 'Add Job');
