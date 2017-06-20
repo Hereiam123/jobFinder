@@ -12,13 +12,19 @@ class UsersTable extends Table
         return $validator
             ->notEmpty('first_name', 'First name is required')
             ->notEmpty('last_name', 'Last name is required')
+            ->notEmpty('username', 'A user name is required')
             ->notEmpty('password', 'A password is required')
             ->notEmpty('confirm_password', 'Confirm your password')
-            ->sameAs('confirm_password','password','Passwords not equal')
             ->notEmpty('role', 'A role is required')
             ->add('role', 'inList', [
                 'rule' => ['inList', ['Employer', 'Job Seeker']],
                 'message' => 'Please enter a valid role'
+            ])
+            ->add('password', [
+                'compare' => [
+                    'rule' => ['compareWith', 'confirm_password'],
+                    'message'=> 'Please enter matching passwords'
+                ]
             ]);
     }
 }

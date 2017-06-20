@@ -1,4 +1,5 @@
-<?php echo $this->Form->create('Users');?>
+<?php echo $this->Flash->render('auth') ?>
+<?php echo $this->Form->create($user);?>
 <fieldset>
     <legend><?php echo __('Register to Jobfinder'); ?></legend>
     <?php
