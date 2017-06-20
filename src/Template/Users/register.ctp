@@ -1,3 +1,4 @@
+<div class="register form">
 <?php echo $this->Flash->render('auth') ?>
 <?php echo $this->Form->create($user);?>
 <fieldset>
@@ -20,7 +21,8 @@
             'options'=>array('Employer'=>'Employer','Job Seeker'=>'Job Seeker'),
             'empty'=>'Select Role'
         ));
-        echo $this->Form->submit('Register');
+        echo $this->Form->submit(__('Register'));
         echo $this->Form->end();
     ?>
 </fieldset>
+</div>
