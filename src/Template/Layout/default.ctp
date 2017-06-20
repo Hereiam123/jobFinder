@@ -23,13 +23,15 @@
                 <h2><strong><a href="<?php echo $this->request->webroot; ?>" id="logo">JobFinder</a></strong></h2>
             </div>
             <?php if($userId):?>
-            <div class="col_6 column right">
-                <h6> Welcome <strong><?php echo $userName;?></strong></h6>
-                <a href="<?php echo $this->request->webroot; ?>users/logout">Logout</a>
-                <form id="add-job" action="<?php echo $this->request->webroot;?>jobs/add">
-                    <button class="large green"><i class="fa fa-paper-plane" aria-hidden="true"> Add Job</i></button>
-                </form>
-            </div>
+                <div class="col_3 column right">
+                    <h6> Welcome <strong><?php echo $userName;?></strong></h6>
+                    <a href="<?php echo $this->request->webroot; ?>users/logout">Logout</a>
+                </div>
+                <div class="col_3 column right">
+                    <form id="add-job" action="<?php echo $this->request->webroot;?>jobs/add">
+                        <button class="large green"><i class="fa fa-paper-plane" aria-hidden="true"> Add Job</i></button>
+                    </form>
+                </div>
             <?php endif; ?>
         </header>
         <div class="col_12 column">

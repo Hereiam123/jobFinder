@@ -27,4 +27,11 @@ class UsersTable extends Table
                 ]
             ]);
     }
+
+    // src/Model/Table/ArticlesTable.php
+
+    public function isOwnedBy($articleId, $userId)
+    {
+        return $this->exists(['id' => $jobId, 'user_id' => $userId]);
+    }
 }

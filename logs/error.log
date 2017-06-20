@@ -28552,3 +28552,523 @@ Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHa
 
 
 
+2017-06-20 05:28:42 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 85]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:28:44 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 85]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:29:40 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 85]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:29:42 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 85]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:29:43 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 85]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:29:45 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 85]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:29:49 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 85]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:29:52 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 85]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:29:55 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 85]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:29:58 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 85]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:52:09 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:52:13 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:52:16 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:52:18 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:52:21 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:52:25 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:52:27 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:53:45 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:53:49 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:53:50 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:54:06 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:54:41 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:55:31 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:55:34 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:55:41 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:55:45 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:55:48 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:55:49 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:55:51 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:55:52 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:56:00 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:56:03 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:56:28 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:56:31 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:56:32 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:56:36 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:56:38 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:56:42 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:56:45 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:56:54 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:56:57 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:56:58 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:58:10 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:58:11 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [D:\xampp\htdocs\jobFinder\src\Template\Jobs\view.ctp, line 16]
+Request URL: /jobs/view/27
+Referer URL: http://localhost/jobFinder/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:58:22 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:58:26 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:58:29 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:58:37 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:58:39 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:58:55 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:58:58 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-06-20 05:59:01 Error: Fatal Error (1): Call to a member function user() on boolean in [D:\xampp\htdocs\jobFinder\src\Controller\AppController.php, line 96]
+Request URL: /css/css/img/gray_jean.png
+Referer URL: http://localhost/jobFinder/css/style.css
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+

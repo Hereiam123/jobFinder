@@ -191,6 +191,26 @@ class JobsController extends AppController{
             return $this->redirect(['action' => 'index']);
         }
     }
+
+    /*
+    *   Checks if user authorized to edit a job posting
+    */
+    public function isAuthorized($user)
+    {
+        // All registered users can add articles
+        if ($this->request->getParam('action') === 'add') {
+            return true;
+        }
+
+        // The owner of an article can edit and delete it
+        if (in_array($this->request->getParam('action'), ['edit', 'delete'])) {
+            $jobId = (int)$this->request->getParam('pass.0');
+            if ($this->Jobs->isOwnedBy($jobId, $user['id'])) {
+                return true;
+            }
+        }
+        return parent::isAuthorized($user);
+    }
 }
 
 ?>
