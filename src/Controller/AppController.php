@@ -49,8 +49,8 @@ class AppController extends Controller
                 'action' => 'index'
             ],
             'logoutRedirect' => [
-                'controller' => 'users',
-                'action' => 'login',
+                'controller' => 'Jobs',
+                'action' => 'index',
                 'home'
             ]
         ]);
@@ -81,5 +81,8 @@ class AppController extends Controller
         ) {
             $this->set('_serialize', true);
         }
+
+        $this->set('userId',$this->Auth->user('id'));
+        $this->set('userName',$this->Auth->user('username'));
     }
 }

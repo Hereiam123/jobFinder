@@ -24,7 +24,7 @@ class UsersController extends AppController{
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
             if ($this->Users->save($user)) {
-                $this->Flash->success(__('The user has been saved.'));
+                $this->Flash->success(__('You are now registered.'));
                 return $this->redirect(array('controller'=>'jobs','action'=>'index'));
             }
             $this->Flash->error(__('Unable to add the user.'));
@@ -46,6 +46,7 @@ class UsersController extends AppController{
             }
             $this->Flash->error(__('Invalid username or password, try again'));
         }
+        $this->set('title', 'Login to your account.');
     }
 
     /*
