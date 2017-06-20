@@ -30,7 +30,6 @@ class UsersController extends AppController{
             $this->Flash->error(__('Unable to add the user.'));
         }
         $this->set('user', $user);
-
         $this->set('title', 'Register at JobFinder');
     }
 

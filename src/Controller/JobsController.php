@@ -7,7 +7,6 @@ use App\Controller\AppController;
 class JobsController extends AppController{
     public $name='Jobs';
 
-
     /*
     *   Default Index Method
     */
@@ -133,13 +132,13 @@ class JobsController extends AppController{
 
         //Save job data from add form
         if($this->request->is('post')){
-
             $job=$this->Jobs->newEntity($this->request->data);
-
+            $job->user_id = $this->Auth->user('id');
             if($this->Jobs->save($job)){
                 $this->Flash->set(__('Your job has been listed'));
                 return $this->redirect(array('action'=>'index'));
             }
+            $this->Flash->error(__('Unable to add your job post.'));
         }
         $this->set('title', 'Add Job');
     }

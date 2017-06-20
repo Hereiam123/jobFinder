@@ -9,10 +9,6 @@
             'options'=>$categories,
             'empty'=>'Select Category'
         ));
-        echo $this->Form->input('user_id',array(
-            'type'=>'hidden',
-            'value'=>1
-        ));
         echo $this->Form->input('type_id',array(
             'type'=>'select',
             'options'=>$types,
